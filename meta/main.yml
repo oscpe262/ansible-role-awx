@@ -23,6 +23,8 @@ galaxy_info:
     - tower
     - rhel
     - redhat
+    - system
+    - cloud
 
 dependencies: []
 allow_duplicates: no
