@@ -1,0 +1,9 @@
+## roles/ansible-role-awx/handlers/main.yml
+# vim:ft=yaml.ansible:
+---
+- name: restart firewall
+  service:
+    name: firewalld
+    state: restarted
+    enabled: yes
+...

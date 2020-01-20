@@ -1,0 +1,28 @@
+galaxy_info:
+  role_name: awx
+  author: Oscar Petersson
+  description: A role for deploying AWX
+
+  license: MIT
+
+  min_ansible_version: 2.9
+
+  platforms:
+  - name: Fedora
+    versions:
+      - 29
+      - 30
+      - 31
+  - name: EL
+    versions:
+      - 7
+
+  galaxy_tags:
+    - ansible
+    - awx
+    - tower
+    - rhel
+    - redhat
+
+dependencies: []
+allow_duplicates: no

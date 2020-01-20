@@ -1,0 +1,38 @@
+## roles/ansible-role-awx/defaults/main.yml
+# vim:ft=yaml.ansible:
+---
+awx_repo: https://github.com/ansible/awx.git
+awx_repo_dir: ~/awx
+awx_version: devel
+awx_keep_updated: true
+
+awx_postgres_server: ""
+awx_postgres_data_dir: /var/lib/pgdocker
+awx_pg_username: awx
+awx_pg_password: awxpass
+awx_pg_admin_password: postgrespass
+awx_pg_database: awx
+awx_pg_port: 5432
+
+awx_rabbitmq_password: awxpass
+awx_rabbitmq_erlang_cookie: cookiemonster
+
+awx_admin_user: admin
+awx_admin_password: password
+
+awx_preload_data: False
+awx_secret_key: awxsecret
+awx_project_data_dir: /var/lib/awx/projects
+
+awx_proxy_url: ""
+awx_noproxy: ""
+
+## Input as comma-separated lists.
+awx_container_searchdomains: ""
+awx_alternate_dnsservers: ""
+
+awx_ca_trust: false
+awx_ca_trust_dir: /etc/pki/ca-trust/source/anchors
+
+awx_python_interpreter: python
+...

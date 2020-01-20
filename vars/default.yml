@@ -1,0 +1,4 @@
+## roles/ansible-role-awx/vars/default.yml
+# vim:ft=yaml.ansible:
+---
+...
